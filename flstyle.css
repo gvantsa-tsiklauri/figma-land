@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url(GraphikRegular.otf);
+}
+body {
+    background-color: #0E0E0E;
+}
+header {
+    width: 100%;
+    height: 119px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.logodiv {
+    margin-top: 30px;
+}
+.links-sec {
+    width: 393px;
+    height: 44px;
+    display: flex;
+    margin-left: 136.5px;
+    margin-top: 37.5px;
+}
+.home-a, .product-a, .about-a, .contact-a {
+    text-decoration: none;
+}
+.product-a, .about-a, .contact-a {
+    margin-left: 51px;
+}
+.hspan, .pspan, .aspan, .cspan {
+    font-family: 'Graphik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+.login-button {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 139px;
+    height: 52px;
+    margin-top: 33px;
+    margin-left: 183.5px;
+    cursor: pointer;
+}
+.loginspan {
+    font-family: 'Graphik';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+.text-sec {
+    width: 100%;
+    background-color: darkorange;
+    opacity: 0.5;
+}
+.title-div {
+    margin-top: 95px;
+}
+.title-div, .text-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    width: 709px;
+    font-family: 'Graphik';
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    color: white;
+    text-align: center;
+}
+.text {
+    width: 582px;
+    font-family: 'Graphik';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: white;
+    text-align: center;
+}
+.buttons-sec {
+    margin-top: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.free-trial, .learn-more {
+    width: 178px;
+    height: 65px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.tff-span, .lm-span {
+    font-family: 'Graphik';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+.free-trial {
+    background-color: #4452FE;
+}
+.learn-more {
+    margin-left: 35px;
+    border: 1px solid white;
+}
+.screen-sec {
+    width: 100%;
+    height: 993px;
+    display: flex;
+    justify-content: center;
+}
+.screens {
+    width: 1579px;
+    height: 993px;
+    margin-top: 35px;
+}
+.img {
+    width: 100%;
+}
+.gradient {
+    width: 100%;
+    height: 551px;
+    position: absolute;
+    top: 1124px;
+    background-color: yellow;
+    background: linear-gradient( transparent, #0E0E0E 66%);
+    z-index: 2;
+}
